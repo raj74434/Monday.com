@@ -14,7 +14,7 @@
     #lower_nav{
         border: 1px solid red;
         width: 90%;
-        height: 75px;
+        height: 65px;
         margin: auto;
         display: flex;
     }
@@ -44,35 +44,75 @@
         color: #6c6cff;
     }
 
-    #IIst-box{
-        display: flex;
-        border: 1px solid rgb(149, 0, 255);
-        width: 25%;
-        height: 100%; 
-       margin-left: 35%;
-       
+    .upper{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+
     }
-    #IIst-box div{
-        color: rgb(68, 68, 68);
+
+   .upperI{
+    color: rgb(255, 255, 255);
+     background: rgb(15, 16, 72);
+     width: 100%;
+     height: 800px;
+     border: 1px solid white;
+
+    }
+    .upperI-text{
+        border: 1px solid yellow;
+        margin: auto;
+        text-align: center;
+
+    }
+
+   .pI{
+    font-size: 60px;
+    line-height: 68px;
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin-top: -5px;
+   }
+    .hI{
+    font-size: 60px;
+    border: 1px solid rgb(0, 255, 89);
+    margin-top: -50px;
+   }
+
+   .pII{
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    font-size:20px;
+    line-height: 32px;
+    margin-top: -30px;
+    border: 2px solid greenyellow;
+}
+
+.pIII{
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    font-size:20px;
+    line-height: 32px;
+    margin-top: 50px;
+    border: 2px solid greenyellow;
+}
+
+
+
+
+
+    .upperII{
+     width: 100%;
+     /* height: 600px; */
+     
+
+    }
+
+    .upperII img{
+        width: 100%;
         margin: auto;
     }
-    #IIst-box div:hover{
-        color: #6c6cff;
-    }
-    #btn{
-        background-color: #6c6cff;
-        width: 130px;
-        height: 40px;
-        color: white;
-        border-radius: 40px;
-        padding: 10px 7px 10px 7px;
-        align-items: center;
-        border: none;
-        margin-top: 13px;
-    }
-    #btn:hover{
-        background-color:#4a4af5 ;
-    }
+
+    
 
 </style>
 <body>
@@ -87,23 +127,32 @@
             <div>Pricing</div>
 
           </div>
+    </div>
+
+    <div class="upper">
 
 
-          <div id="IIst-box">
-            <div>Contact Sales</div>
-            <div>Log In</div>
-            <button id="btn">Get Started-></button>
-            
+        <div class="upperI">
 
-          </div>
+            <div class="upperI-text">
+            <p class="pI">Build better products faster</p>
+            <h1 class="hI">with monday.com's product <br> development software</h1>
+            <p class="pII">House and sync all of your development tools, communication, and collaboration in real-time, on one product <br> management software.</p>
+              <p class="pIII">What would you like to manage?</p>
+            </div>
+        </div>
 
-     
+
+        <div class="upperII">    
+            <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/DanielleHassan/dev-minisite/hero-dev.png" alt="">
+        </div>
 
 
     </div>
     
 </body>
 </html>
+
 
 
 
