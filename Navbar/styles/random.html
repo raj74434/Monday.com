@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+         .work span {
+            width: 40px;
+            align-items: center;
+            display: flex;
+            margin-bottom: -12px;
+        }
+
+        .work span>img {
+            width: 100%;
+            border: 1px solid gray;
+            margin-left: 5px;
+        }
+
+        .work>div:nth-child(1) {
+            display: flex;
+
+         
+        }
+
+        .work>div:nth-child(2) {
+            display: flex;
+            align-items: center;
+
+        }
+
+        #products_detail:nth-child(1).work a {
+            margin-right: 8px;
+            text-decoration: none;
+            color: blue;
+            background-color: antiquewhite;
+            border-radius: 5px;
+            font-size: 15px;
+
+        }
+
+        #products_detail>div:nth-child(1):hover {
+            background-color: rgb(224, 228, 245)
+               
+        }
+
+        #products_detail>div:nth-child(2).work a {
+            margin-right: 8px;
+            text-decoration: none;
+            color: rgb(255, 0, 149);
+            background-color: antiquewhite;
+            border-radius: 5px;
+            font-size: 15px;
+
+        }
+
+        #products_detail>div:nth-child(2):hover {
+            background-color: rgb(224, 228, 245)
+               
+        }
+        #products_detail>div:nth-child(3).work a {
+            margin-right: 8px;
+            text-decoration: none;
+            color: rgb(0, 255, 21);
+            background-color: rgb(204, 199, 193);
+            border-radius: 5px;
+            font-size: 15px;
+
+        }
+
+        #products_detail>div:nth-child(3):hover {
+            background-color: rgb(224, 228, 245)
+               
+        }
+        #products_detail>div:nth-child(4).work a {
+            margin-right: 8px;
+            text-decoration: none;
+            color: rgb(53, 53, 170);
+            background-color: antiquewhite;
+            border-radius: 5px;
+            font-size: 15px;
+           
+
+        }
+        #products_detail>div:nth-child(4):hover {
+            background-color: rgb(224, 228, 245)
+               
+        }
+
+        #products_detail>div:nth-child(5).work a {
+            margin-right: 8px;
+            text-decoration: none;
+            color: rgb(255, 0, 34);
+            background-color: antiquewhite;
+            border-radius: 5px;
+            font-size: 15px;
+
+        }
+        #products_detail>div:nth-child(5):hover {
+            background-color: rgb(224, 228, 245)
+               
+        }
+
+        .work>div:nth-child(2)>div>p {
+            color: rgb(61, 57, 57);
+        }
+
+        .work {
+            width:auto;
+            height: 150px;
+        }
+
+        .work p {
+            color: rgb(61, 57, 57);
+        }
+
+        #name_prod {
+            margin-left: 20px;
+            margin-bottom: -7px;
+        }
+
+        #name_prod>h3 {
+            margin-bottom: -12px;
+        }
+
+        #more{
+            width: auto;
+            margin-top: -72px;
+            border: 1px solid blue;
+            grid-area: "more";
+        }
+        #more>div{
+            width:auto;
+        }
+        #more>div>img{
+            width:  40px;
+        }
+        #products_drop{
+            width: 70%;
+            border: 1px solid rgb(0, 255, 76);
+            grid-area: "products_drop";
+
+        }
+        #products_detail{
+            width:100%;
+            height: fit-content;
+            display: grid;
+            grid-template-columns:repeat(2,auto);
+            border: 1px solid rgb(255, 136, 0);
+            grid-area: "products_detail";
+        }
+
+
+        #prod_container {
+            border: 1px solid skyblue;
+           padding: 10px;
+            display: grid;
+            grid-template-columns:repeat(2,auto);
+           
+
+        }
+
+        
+        #card_12{
+            display: grid;
+            grid-template-columns:auto auto;
+        }
+       
+     #prod_container a,p,h3,h2   {
+            font-family: sofia-pro,Roboto,Helvetica,Arial,sans-serif;
+        }
+     
+    </style>
+</head>
+
+<body>
+    <div id="prod_container">
+
+        <div id="monday_products">
+
+
+            <div id="products_drop">
+                <div><h2>Monday products</h2></div>
+                <div>products trailored to your team needs</div>
+            </div>
+            <div id="card_12"> 
+            <div id="products_detail">
+                <div class="work">
+                    <div>
+                        <span> <img
+                                src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/wm_icon_footer.png"
+                                alt="">
+                        </span>
+                        <div id="name_prod">
+                            <h3>monday work management</h4>
+                                <p>For teams managing tasks & Worksflows</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Top use cases </p>
+                        </div>
+                        <div>
+                            <a href="#">: Projects & Task management</a>
+                        </div>
+                        <div>
+                            <a href="#">Worlflow</a>
+                        </div>
+                        <div>
+                            <a href="#">Build your own</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div>
+                        <span> <img
+                                src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/crm_icon_footer.png"
+                                alt="">
+                        </span>
+                        <div id="name_prod">
+                            <h3>monday sales CRM</h4>
+                                <p>For sales & customer-facing teams</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Top use cases </p>
+                        </div>
+                        <div>
+                            <a href="#">: Contact management</a>
+                        </div>
+                        <div>
+                            <a href="#">Sales pipeline</a>
+                        </div>
+                        <div>
+                            <a href="#">Lead management</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div>
+                        <span> <img
+                                src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/marketer_icon_footer.png"
+                                alt="">
+                        </span>
+                        <div id="name_prod">
+                            <h3>monday marketer</h4>
+                                <p>For marketing & creative teams</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Top use cases </p>
+                        </div>
+                        <div>
+                            <a href="#">: Content calender</a>
+                        </div>
+                        <div>
+                            <a href="#">Campaign tracking</a>
+                        </div>
+                        <div>
+                            <a href="#">Marketing projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div>
+                        <span> <img
+                                src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/projects_icon_footer.png"
+                                alt="">
+                        </span>
+                        <div id="name_prod">
+                            <h3>monday projects</h4>
+                                <p>For PMO teams & project managers</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Top use cases </p>
+                        </div>
+                        <div>
+                            <a href="#">: Advanced projects</a>
+                        </div>
+                        <div>
+                            <a href="#">Portfolio management</a>
+                        </div>
+                        <div>
+                            <a href="#">Critical path</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div>
+                        <span> <img
+                                src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/dev_icon_footer.png"
+                                alt="">
+                        </span>
+                        <div id="name_prod">
+                            <h3>monday dev</h4>
+                                <p>For product & developement teams</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Top use cases </p>
+                        </div>
+                        <div>
+                            <a href="#">: Roadmap planning</a>
+                        </div>
+                        <div>
+                            <a href="#">Bug tracking</a>
+                        </div>
+                        <div>
+                            <a href="#">Scrum & Kanban</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="more">
+                <div>-More by monday.com</div>
+                <div><img src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/workforms_icon_footer.png" alt="">WorkForms</div>
+                <div><img src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/canvas_icon_footer.png" alt="">Canvas</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
