@@ -1,0 +1,158 @@
+#navbar{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-left: 22px;
+    padding-right: 22px;
+    z-index: 555;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
+    
+border: 1px solid black;
+}
+
+#left_side{
+    width: fit-content;
+
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid blue;
+}
+
+
+#left_menu>div{
+    margin-left: 20px;
+    margin-top:10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #324;
+}
+
+#logo>a>img{
+   height: 42px;  
+}
+
+
+
+/* leftMenu */
+
+#left_menu{
+    width: auto;
+    display: flex;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size:16px;
+     color: #333;
+     cursor: pointer;
+     border: 1px solid rgb(141, 66, 66);
+}
+
+
+
+#left_menu>div:hover{
+    color: blue;
+    background-color: antiquewhite;
+    border-radius: 10px;
+     border-bottom: yellowgreen;
+}
+
+
+/* Right Menu */
+#right_menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size:16px;
+     color: #333;
+     cursor: pointer;
+     border: 1px solid rgb(87, 170, 80);
+}
+
+#right_menu>div>a{
+   
+   
+    text-decoration: none;
+    color: #333;
+}
+
+#right_menu>div{
+    margin-top:10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #324;
+}
+
+#right_menu>div:hover{
+    color: blue;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  border-bottom: rgb(185, 41, 22);
+}
+
+#right_menu>div>a:hover{
+    color: blue;
+}
+
+
+#btn_getStrted{
+    padding: 10px;
+    text-align: center;
+
+    
+    background-color: rgb(47, 47, 182);
+    border-radius: 20px;
+    cursor: pointer;
+margin-bottom: 4px;
+}
+#btn_getStrted:hover{
+    background-color: rgb(149, 149, 235);
+   float: right;
+   
+}
+
+#btn_getStrted>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* dropdown card */
+
+
+
+ /* /* .drop_down{
+    display: none;
+} 
+
+
+#left_menu:hover .drop_down{
+    margin-top: 16px;
+    display: block;
+    width: 700px;
+    position: absolute;
+    background-color: rgb(186, 177, 194);
+   
+ 
+} */
+
+.drop_down{
+    background-color: black;
+    
+    display: block;
+    position: absolute;
+}
