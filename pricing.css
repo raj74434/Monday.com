@@ -1,0 +1,105 @@
+
+
+.accordition #contentBx
+{
+    position: relative;
+    
+}
+
+.accordition #contentBx .label
+{
+    width:400px;
+    margin: auto;
+    position: relative;
+    /* color: grey; */
+    cursor: pointer;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+
+.accordition #contentBx .label ::before
+{
+    
+    position: absolute;
+
+}
+.accordition #contentBx .content
+{
+    /* border: solid; */
+    position: relative;
+   
+    height: 0;
+    overflow: hidden;
+    transition: 0.20%;
+    overflow-y: auto;
+}
+
+.accordition #contentBx.active .content
+{
+ 
+   padding: 10px;
+    height: auto;
+    width: 1200px;
+    margin: auto;
+}
+
+
+#table 
+{
+    width:90%;
+    margin: auto;
+   text-align: center;
+    /* border:solid red */
+
+}
+
+.tablebtn
+{
+    background-color: #6c6cff;
+    color:white;
+    padding:8px 15px;
+    border-radius: 20px;
+    border: transparent;
+}
+.tablebtn:hover
+{
+    background-color: blue;
+    cursor: pointer;
+}
+ #middleheading
+{
+text-align: center;
+margin-top: 80px;
+}
+
+#brandsnav
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#brandsnav>div
+{
+    width:100px
+
+}
+#brandsnav>div>img
+{
+    width:100%;
+   
+    
+}
+
+
+ /* #contnav
+{
+    width: 700px;
+    margin: auto;
+display: flex;
+justify-content: end;
+border: solid;
+
+
+} */
