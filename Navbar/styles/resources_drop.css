@@ -1,0 +1,40 @@
+#resources_drop1{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: auto;
+    gap: 15px;
+    
+    box-shadow: rgba(.20, .20, 33, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 10px;
+}
+
+#resources_drop1{
+    text-align: left;
+}
+
+.head_features{
+    margin-bottom: 15px;
+}
+
+.features_card{
+    margin-bottom: 15px;
+}
+
+.features_card>h4{
+    margin-bottom: 15px;
+    color: rgb(94, 91, 91);
+}
+
+.features_card>p{
+font-size: 15px;
+}
+.storiesdiv{
+    width: 270px;
+    height: 260px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 10px;
+}
+.storiesImg{
+    width: 220px;
+    height: 150px;
+}

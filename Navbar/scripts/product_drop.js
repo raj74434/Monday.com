@@ -23,11 +23,12 @@ let displayMenu = () => {
 
 
     <div id="products_drop">
-        <div>
+        <div id="head_product8">
             <h2>monday products</h2>
             
         </div>
-        <div id="products_drop1"><p>products trailored to your team needs</p>
+        <div id="products_drop1">
+        <p>products trailored to your team needs</p>
             <p>- More by monday</p>
         </div>
     </div>
@@ -41,7 +42,7 @@ let displayMenu = () => {
                             src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/wm_icon_footer.png"
                             alt="">
                     </span>
-                    <div id="name_prod">
+                    <div class="name_prod">
                         <h3>monday work management</h4>
                             <p>For teams managing tasks & Worksflows</p>
                     </div>
@@ -70,7 +71,7 @@ let displayMenu = () => {
                             src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/crm_icon_footer.png"
                             alt="">
                     </span>
-                    <div id="name_prod">
+                    <div class="name_prod">
                         <h3>monday sales CRM</h4>
                             <p>For sales & customer-facing teams</p>
                     </div>
@@ -99,7 +100,7 @@ let displayMenu = () => {
                             src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/marketer_icon_footer.png"
                             alt="">
                     </span>
-                    <div id="name_prod">
+                    <div class="name_prod">
                         <h3>monday marketer</h4>
                             <p>For marketing & creative teams</p>
                     </div>
@@ -128,7 +129,7 @@ let displayMenu = () => {
                             src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/projects_icon_footer.png"
                             alt="">
                     </span>
-                    <div id="name_prod">
+                    <div class="name_prod">
                         <h3>monday projects</h4>
                             <p>For PMO teams & project managers</p>
                     </div>
@@ -157,7 +158,7 @@ let displayMenu = () => {
                             src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/dev_icon_footer.png"
                             alt="">
                     </span>
-                    <div id="name_prod">
+                    <div class="name_prod">
                         <h3>monday dev</h4>
                             <p>For product & developement teams</p>
                     </div>

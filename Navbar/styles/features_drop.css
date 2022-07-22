@@ -1,0 +1,50 @@
+#features_drop1{
+    width: 100%;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+ 
+
+}
+
+.fetures_subhead{
+    margin-top: 30px;
+    margin-left: -1110px;
+   
+}
+
+
+.features_a {
+    text-decoration: none;
+    color: black;
+}
+
+#features_card {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    row-gap: 20px;
+    padding: 17px;
+}
+
+.features_card1 {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 10px;
+}
+
+.features_card1:hover {
+    background-color: rgb(231, 237, 247);
+}
+
+.fetures_head {
+    display: flex;
+    align-items: center;
+}
+.features_card1 p{
+    text-align: left;
+    margin-top: 8px;
+}
+.fetures_head>svg{
+    margin-right: 10px;
+   
+}

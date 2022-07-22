@@ -6,13 +6,25 @@
       
 
     }
+    #head_product8{
+   
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
     #products_drop>div>h2{
         margin-top: -30px;
      margin-left: -1110px;
       
 
     }
-    #name_prod>h3,p{
+
+    .name_prod{
+        display: block;
+        margin-top: 25px;
+        margin-left: 18px;
+    }
+    .name_prod>h3{
+    
        text-align: left;
     }
   
@@ -224,4 +236,9 @@ svg{
         margin-right: 5px;
         width: 35px;
         height: 35px;
+    }
+
+    #more>div>h4 {
+        margin-top: 15px;
+        margin-left: 15px;
     }
