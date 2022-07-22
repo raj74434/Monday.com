@@ -86,7 +86,9 @@ let usecasesfun = () => {
         <span class="title_1">- By business size</span>
         <div id="size_card">
             <div class="size_card1">
-                <img src="" alt="">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="jsx-1475715785 menu-item-title-icon outline" style="--icon-color:#F04095;"><path transform="matrix(.34684 .93793 -.95008 .312 10.22 17.544)" stroke="#000" stroke-width="2.5" stroke-linecap="round" d="M1.25-1.25h2.707"></path><path d="M7.942 17.543L7 14.435 18.306 6l3.062 10.729-13.426.814z" stroke="#000" stroke-width="2.5" stroke-linejoin="round"></path></svg>
+
+                 <img src="" alt="">
                 <h4>Enterprice</h4>
             </div>
             <div class="size_card1">

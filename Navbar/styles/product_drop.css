@@ -16,7 +16,10 @@
        text-align: left;
     }
   
-
+svg{
+    color: red;
+    
+}
      #products_drop1 {
         display: flex;
         justify-content:space-between;
