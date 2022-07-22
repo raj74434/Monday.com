@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+</head>
+<style>
+
+    *{
+        font-family: sans-serif;
+    }
+    #lower_nav{
+        border: 1px solid red;
+        width: 90%;
+        height: 65px;
+        margin: auto;
+        display: flex;
+    }
+
+    #lgo{
+        border: 1px solid blue;
+        height: 100%;
+        width: 15%;
+    }
+    #lgo img{
+        width: 100%;
+        height: 100%;
+    }
+    #Ist-box{
+        display: flex;
+        border: 1px solid rgb(40, 0, 29);
+        width: 25%;
+        height: 100%;
+
+        
+    }
+    #Ist-box div{
+        color: rgb(68, 68, 68);
+        margin: auto;
+    }
+    #Ist-box div:hover{
+        color: #6c6cff;
+    }
+
+    .upper{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        border: 4px solid red;
+
+    }
+
+   .upperI{
+    color: rgb(255, 255, 255);
+     background: rgb(15, 16, 72);
+     width: 100%;
+     height: 600px;
+     border: 1px solid white;
+     
+
+    }
+    .upperI-text{
+        border: 1px solid rgb(0, 200, 255);
+        margin: auto;
+        text-align: center;
+
+    }
+
+   .pI{
+    font-size: 60px;
+    line-height: 68px;
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin-top: -5px;
+   }
+    .hI{
+    font-size: 60px;
+    border: 1px solid rgb(255, 0, 17);
+    margin-top: -50px;
+   }
+
+   .pII{
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    font-size:20px;
+    line-height: 32px;
+    margin-top: -30px;
+    border: 2px solid rgb(47, 113, 255);
+}
+
+.pIII{
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    font-size:20px;
+    line-height: 32px;
+    margin-top: 50px;
+    border: 2px solid rgb(255, 47, 141);
+}
+
+
+
+
+
+    .upperII{
+     width: 100%;
+     /* height: 600px; */
+     
+
+    }
+
+.upperII img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .work-category{
+        border: 1px solid rgb(224, 47, 255);
+        margin: auto;
+        width: 50%;
+        margin-top: -10px;
+      
+    }
+
+.work-category > div {
+    
+  background-color: #27285a;
+  display: inline-block;
+  padding: 8px 10px 3px 6px;
+  border-radius: 80px;
+  margin: 10px;
+  height: 30px;
+  text-align: start;
+  font-weight: 400;
+  
+}
+.work-category > div > input {
+  width: 22px;
+  height: 15px;
+  text-align: start;
+  font-size: 16px;
+  line-height: 22.5px;
+}
+
+#retro{
+    margin-left: 40px;
+}
+
+
+
+
+.work-category > div:hover {
+  background-color: #0d0e2d;
+}
+
+#btn{
+    margin: auto;
+    border-radius: 40px;
+    font-family: sofia-pro, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    color:#ffffff ;
+    background-color: #6c6cff;
+    padding: 16px 13px 16px 13px ;
+    margin-top: 10px;
+    margin-left: 35%;
+    border: none;
+}
+#btn:hover{
+    background-color:#2626e3 ;
+}
+
+.upperIII{
+    border: 3px solid rgb(0, 255, 174);
+    margin: auto;
+
+
+}
+.upperIII-logo{
+    width: 25%;
+    margin: auto;
+    border: 1px solid green;
+}
+.upperIII-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.upperIII-text{
+    border: 2px solid gray;
+    margin: auto;
+    width: 60%;
+    height: auto;
+}
+.upperIII-text h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight:650;
+    color: rgb(50, 49, 49);
+}
+.upperIII-text h1+h1{
+    font-size: 33px;
+    text-align: center;
+    font-weight:400;
+    margin-top: -15px;
+}
+
+.upperIV{
+    display: flex;
+    border: 2px solid blueviolet;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.upperIV div{
+    border: 5px solid rgb(85, 0, 255);
+    height: 500px;
+    width: 50%;
+}
+
+.upperIV div img{
+    width: 100%;
+    height: 100%;
+}
+
+.upperIV-text{
+    text-align:left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.upperIV-text  p{
+    color: green;
+}
+
+.upperIV-text  p +h1+ h1+ p{
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: 90%;
+    margin-top: 70px;
+}
+
+.upperIV-text h1{
+    font-weight: 700;
+    font-size: 35px;
+    
+    opacity: 90%;
+   margin-bottom: -13px;
+}
+
+.upperIV-text h1 + h1{
+    font-weight: 200;
+    font-size: 35px;
+    opacity: 90%;
+   
+   
+}
+
+
+
+.upperV{
+	height: 700px;
+    background: rgb(15, 16, 72);
+	clip-path: polygon(0 0, 100% 16%, 100% 97%, 0 81%);
+	position: relative;
+    display: flex;
+    border: 3px solid yellow;
+}
+
+.upperV div{
+    border: 5px solid rgb(85, 0, 255);
+    height: 700px;
+    width: 50%;
+    margin-top: 120px;
+    text-align: left;
+   
+}
+
+.upperV-text{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.upperV div + div img{
+  width: 100%;
+}
+
+.upperV-text p{
+    color: #00c875;
+    margin-top: 50px;
+
+}
+
+.upperV-text p + h1{
+    color: white;
+}
+.upperV-text p + h1 + p{
+    color: white;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+
+.upperVI{
+    display: flex;
+    border: 2px solid blueviolet;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.upperVI div{
+    border: 5px solid rgb(85, 0, 255);
+    height: 500px;
+    width: 50%;
+}
+
+.upperVI div img{
+    width: 100%;
+    height: 100%;
+}
+
+.upperVI-text{
+    text-align:left;
+    margin-left: 40px;
+}
+
+.upperVI-text  p{
+    color: green;
+    margin-top: 100px;
+}
+
+.upperVI-text  p + h1  + p{
+    color: #0f0f0f;
+    font-size: 20px;
+    line-height: 1.6;
+    opacity: 90%;
+    margin-top: 30px;
+}
+
+.upperVI-text h1{
+    font-weight: 700;
+    font-size: 35px;
+    
+    opacity: 90%;
+   margin-bottom: -13px;
+}
+
+.upperVII{
+    display: flex;
+    border: 3px solid greenyellow;
+    width: 100%;
+    height: 600px;
+}
+
+.upperVII div{
+    border: 2px solid blueviolet;
+    width: 50%;
+
+}
+.upperVII div img{
+    width: 80%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.upperVII-text div img{
+    width: 30%;
+    height: 30%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.upperVII-text div + p{
+    font-size: 24px;
+    color:#333333;
+    line-height: 32px;
+    margin-left: 100px;
+    
+
+}
+
+
+.lower{
+    border: 2px solid rgb(8, 90, 29);
+    width: 100%;
+    margin: auto;
+}
+.lower div{
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.lower-grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    margin: auto;
+  margin-top: 15px;
+    border: 1px solid black;
+}
+.lower-grid div img{
+    width: 55%;
+    height: 60%;
+}
+
+.btn{
+    margin: auto;
+    border-radius: 40px;
+    font-family: sofia-pro, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    color:#ffffff ;
+    background-color: #6c6cff;
+    padding: 16px 13px 16px 13px ;
+    margin-top: 10px;
+    margin-left: 45%;
+    border: none;
+}
+.btn:hover{
+    background-color:#2626e3 ;
+}
+
+.lowerI{
+	height: 900px;
+    background: #f0f3ff;
+	clip-path: polygon(0 0, 100% 10%, 100% 97%, 0 86%);
+	position: relative;
+    display: flex;
+
+    margin-top: 100px;
+    border: 3px solid rgb(19, 19, 16);
+}
+
+
+
+h1{
+    border: 3px solid rgb(19, 19, 16);
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+    line-height: 40px;
+    color: #323338;
+
+}
+
+.lowerI div{
+    border: 5px solid rgb(85, 0, 255);
+    height: 600px;
+    margin-right: 300px;
+    width: 50%;
+    margin-top: 250px;
+    text-align: left;
+   
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+</style>
+<body>
+
+    <div id="lower_nav">  
+
+        <div id="lgo"><img src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/minisites/header%20logos/dev/desktop_open_monday_dev_logo.png" alt=""></div>
+  
+          <div id="Ist-box">
+            <div>Overview</div>
+            <div>Featurs</div>
+            <div>Pricing</div>
+
+          </div>
+    </div>
+
+    <div class="upper">
+
+
+        <div class="upperI">
+
+            <div class="upperI-text">
+
+            <p class="pI">Build better products faster</p>
+            <h1 class="hI">with monday.com's product <br> development software</h1>
+            <p class="pII">House and sync all of your development tools, communication, and collaboration in real-time, on one product <br> management software.</p>
+              <p class="pIII">What would you like to manage?</p>
+              
+            </div>
+
+
+
+            <div class="work-category">
+
+
+                <div>
+                  <input type="checkbox"  />
+                  <label for="roadmap">Roadmap planning</label>
+                </div>
+
+                <div>
+                    <input type="checkbox"  />
+                    <label for="backlog">Features backlog</label>
+                  </div>
+
+                  
+                  <div>
+                    <input type="checkbox"  />
+                    <label for="scrum">Scrum software management</label>
+                  </div>
+
+
+                  <br>
+
+                  
+                  <div id="retro">
+                    <input type="checkbox" />
+                    <label for="Retrospective">Retrospective</label>
+                  </div>
+
+                  
+                  <div>
+                    <input type="checkbox"  />
+                    <label for="bug">Bug tracking</label>
+                  </div>
+
+                  
+
+                  <div>
+                    <input type="checkbox"  />
+                    <label for="project">Projects</label>
+                  </div>
+
+                  <div>
+                    <input type="checkbox" />
+                    <label for="plan">Release plan</label>
+                  </div>
+
+
+                  <button id="btn">Get Started ></button>
+            </div>
+        </div>
+
+       
+
+
+        <div class="upperII">    
+            <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/DanielleHassan/dev-minisite/hero-dev.png" alt="">
+        </div>
+
+
+
+        <div class="upperIII"> 
+
+            <div class="upperIII-logo"> 
+                <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/DanielleHassan/dev-minisite/dev-horizontal-logo.svg " alt="">
+            </div>
+
+
+            <div class="upperIII-text">
+                <h1>Easily build agile workflows to drive impact</h1>
+            <h1>from conceptualization to product launch.</h1> 
+        </div>
+
+
+        </div>
+
+
+        <div class="upperIV">
+
+            <div> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/DanielleHassan/dev-minisite/customizble_dev.png" alt=""> </div>
+
+            <div class="upperIV-text"> 
+                <p>Customize workflows</p>
+                <h1>Remove the limits </h1>
+                <h1>of traditional product <br> management </h1>
+                <p>Tailor any product development process around your unique <br> product strategy to best serve your development team’s <br> needs. Plan 
+                    and manage sprints, create custom roadmaps <br> and Gantt charts, and more.</p>                          
+            </div>
+
+        </div>
+
+
+        <div class="upperV">
+            <div class="upperV-text">
+                <p>Automate repetitive processes</p>
+                <h1>Let your product software work <br> for you</h1>
+                <p>Create custom automations to reduce operational work that <br> increases your development project’s time to market. <br> Automate everything from task assignments and product <br> design approvals to how your workflow integrates with your <br> favorite tools, like GitHub.</p>            
+            </div>
+
+
+            <div>
+                <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/DanielleHassan/dev-minisite/board_with_automations_dev.png " alt="">
+            </div>
+
+		</div>
+
+
+
+        <div class="upperVI">
+          <div> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/DanielleHassan/dev-minisite/connenct_all_dev.png" alt=""> </div>
+
+            <div class="upperVI-text"> 
+                <p>Connect R&D, design, and product teams</p>
+                <h1>Break down silos to create a <br> single source of truth</h1>
+                <p>Align your entire organization on one collaborative platform <br> that syncs NPD software and effective communication across <br> every department to ensure all teams are moving forward.</p>                          
+            </div>
+
+        </div>
+
+
+
+
+        <div class="upperVII"> 
+
+
+            <div class="upperVII-text">
+
+                <div>
+                <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/DanielleHassan/dev-minisite/quote_icon.svg " alt="">
+                  </div>
+
+                  <p>Migrating from Jira to monday.com Work OS <br>
+                     enabled our R&D department to leverage a <br>
+                      product tailor-made to our needs with the <br>
+                       ability to work with other departments in the <br>
+                        same platform.”</p>
+
+            </div>
+          
+            <div> 
+                <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/DanielleHassan/dev-minisite/image_quoete_dev.png" alt="">
+            </div>
+
+
+        </div>
+
+        <div class="lower">
+            <div>Trusted by 152,000 customers worldwide </div>
+
+          <div class="lower-grid">
+            <div><img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/hulu.png" alt=""> </div>
+            <div><img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/bd.png" alt=""> </div>
+            <div><img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/canva.png" alt=""> </div>
+            <div> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/nhl.png " alt=""> </div>
+            <div> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/coca_cola.png " alt=""> </div>
+            <div> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/hubspot.png " alt=""> </div>
+            <div> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/Electronic_Arts.png " alt=""> </div>
+            <div> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/nautica.png " alt=""> </div>
+            <div> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/universal.png " alt=""> </div>
+
+          </div>
+
+          <button class="btn">Get Started</button>
+            
+            
+        
+        </div>
+
+
+
+        <div class="lowerI">
+
+
+   <h1 >Access the most flexible agile workflows <br>
+          on the market today with our curated templates.</h1>
+
+          <div></div>
+          <div></div>
+
+
+        
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+   
+
+
+    
+</body>
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+ <!-- <div><img src="./New folder/ks.gif" alt="Computer man" style="width: 1890px;height: 321px;"></div> -->
+
+<!-- https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto:best/remote_mondaycom_static/uploads/mayatauber/Desktop_-_4_2.png -->
