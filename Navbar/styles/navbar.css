@@ -7,7 +7,7 @@
     position: fixed;
     padding-left: 22px;
     padding-right: 22px;
-    z-index: 555;
+    /* z-index: 555; */
     background-color: #ffffff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
    
@@ -54,7 +54,7 @@ border: 1px solid black;
 
 
 
-#left_menu>div:hover{
+.left_subdiv:hover{
     color: blue;
     background-color: antiquewhite;
     border-radius: 10px;
@@ -134,25 +134,35 @@ margin-bottom: 4px;
 /* dropdown card */
 
 
-
- /* /* .drop_down{
-    display: none;
-} 
-
-
-#left_menu:hover .drop_down{
-    margin-top: 16px;
-    display: block;
-    width: 700px;
-    position: absolute;
-    background-color: rgb(186, 177, 194);
-   
- 
-} */
-
-.drop_down{
-    background-color: black;
-    
+#drop_down1{
+    background-color:white;
+    width:93%;
     display: block;
     position: absolute;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+#drop_down2{
+    background-color:white;
+    width:94%;
+    display: block;
+    position: absolute;
+    margin-left: -270px;
+    margin-top: 20px;
+}
+#drop_down3{
+    background-color:white;
+    width:93%;
+    display: block;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+#drop_down4{
+    background-color:white;
+    width:93%;
+    display: block;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 50px;
 }

@@ -1,0 +1,99 @@
+#usecase_menu {
+    margin-top: 20px;
+    height: 435px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgb(182, 79, 110);
+}
+
+.title_1 {
+    margin-top: 20px;
+    border: 1px solid rgb(182, 79, 110);
+    font-weight: bolder;
+    color: rgb(102, 101, 101);
+
+}
+
+/* by team block1 */
+#team_card {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 211px);
+    grid-template-rows: repeat(4, 54px);
+    border: 1px solid rgb(62, 70, 177);
+}
+
+
+.team_card1 {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid rgb(62, 70, 177);
+}
+
+.team_card1:hover {
+    background-color: rgb(231, 227, 227);
+}
+
+.team_card1>img {
+    width: 25px;
+    height: 25px;
+}
+
+.team_card1>h4 {
+    text-decoration: none;
+    color: black;
+    width: 20px;
+}
+
+.decoretion {
+    text-decoration: none;
+}
+
+/* By business size block*/
+#size_card {
+    margin-top: 20px;
+    width: 195px;
+    border: 1px solid rgb(167, 12, 12);
+}
+
+#size_card>div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid rgb(167, 12, 12);
+}
+.size_card1>img{
+    width: 25px;
+    height: 25px;
+}
+#size_card>div:hover {
+    background-color: rgb(231, 227, 227);
+}
+
+/* By work flow block  */
+#workfolow_card {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 312px);
+    grid-template-rows: repeat(1, 398px);
+    border: 1px solid rgb(134, 173, 41);
+}
+
+.workflow_card2 {
+    border: 1px solid rgb(134, 173, 41);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.workflow_card2>img{
+    width: 25px;
+    height: 25px;
+}
+
+.workflow_card2:hover {
+    background-color: rgb(231, 227, 227);
+}
