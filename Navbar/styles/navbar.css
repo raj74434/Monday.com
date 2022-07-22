@@ -1,4 +1,8 @@
-*{
+ 
+ 
+ /*  -------------------- Navbar css part ------------------------*/
+
+ *{
     padding: 0px;
     margin: 0px;
 }
@@ -232,3 +236,491 @@
     margin-left: -500px;
     margin-top: 22px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------Product dropdown menu-------------------------- */
+
+  /* Monday products header */
+     #products_drop {
+        padding: 2%;
+        width: 98%;
+        height: auto;
+      
+
+    }
+    #head_product8{
+   
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    #products_drop>div>h2{
+        margin-top: -30px;
+     margin-left: -1110px;
+      
+
+    }
+
+    .name_prod{
+        display: block;
+        margin-top: 25px;
+        margin-left: 18px;
+    }
+    .name_prod>h3{
+    
+       text-align: left;
+    }
+  
+svg{
+    color: red;
+    
+}
+     #products_drop1 {
+        display: flex;
+        justify-content:space-between;
+      
+    } 
+    #products_drop1>p{
+        margin-top: -10px;
+     margin-right: 70pX;
+    }
+
+    /* Products details cards */
+    #prod_container{
+        margin-left: auto;
+    }
+   
+    .work span {
+        width: 40px;
+        
+        align-items: center;
+        display: flex;
+        /* margin-bottom: -12px; */
+        
+    }
+    .logo_product{
+        display: flex;
+    }
+
+    .work span>img {
+        margin-top: 20px;
+        width: 100%;
+        border: 1px solid rgb(233, 227, 227);
+        margin-left: 5px;
+    }
+
+    .work>div:nth-child(1) {
+        display: flex;
+
+
+    }
+
+    .work>div:nth-child(2) {
+        display: flex;
+        align-items: center;
+
+    }
+
+    #products_detail>div:nth-child(1).work a {
+
+        margin-right: 8px;
+        text-decoration: none;
+        color: blue;
+        /* background-color: antiquewhite; */
+        border-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    #products_detail>div:nth-child(1):hover {
+        background-color: rgb(219, 222, 233);
+    }
+
+    #products_detail>div:nth-child(2).work a {
+        margin-right: 8px;
+        text-decoration: none;
+        color: rgb(17, 165, 190);
+        /* background-color: rgb(231, 246, 247); */
+        border-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    #products_detail>div:nth-child(2):hover {
+        background-color: rgb(231, 246, 247);
+    }
+
+    #products_detail>div:nth-child(3).work a {
+        margin-right: 8px;
+        text-decoration: none;
+        color: rgb(243, 18, 149);
+        /* background-color: rgb(250, 217, 243); */
+        border-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    #products_detail>div:nth-child(3):hover {
+        background-color:rgb(250, 217, 243);
+    }
+
+    #products_detail>div:nth-child(4).work a {
+        margin-right: 8px;
+        text-decoration: none;
+        color: rgb(204, 126, 23);
+        /* background-color: rgb(233, 224, 212); */
+        border-radius: 5px;
+        font-size: 15px;
+
+
+    }
+
+    #products_detail>div:nth-child(4):hover {
+        background-color: rgb(236, 219, 195);
+    }
+
+    #products_detail>div:nth-child(5).work a {
+        margin-right: 8px;
+        text-decoration: none;
+        color: rgb(12, 209, 144);
+        /* background-color: rgb(203, 240, 224); */
+        border-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    #products_detail>div:nth-child(5):hover {
+        background-color: rgb(224, 228, 245)
+    }
+
+    .work>div:nth-child(2)>div>p {
+        color: rgb(61, 57, 57);
+    }
+
+    .work {
+        width: auto;
+        height: 150px;
+    }
+
+    .work p {
+        color: rgb(61, 57, 57);
+    }
+
+    #name_prod {
+        margin-left: 20px;
+        margin-bottom: -7px;
+    }
+
+    #name_prod>h3 {
+        margin-bottom: -12px;
+    }
+
+
+
+    #products_detail {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+      
+        grid-area: "products_detail";
+    }
+
+
+    #prod_container {
+       
+        width:auto;
+        padding: 20pxpx;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+     
+        display: block;
+
+    }
+    #prod_container{
+        color: black;
+        background-color: white;
+    }
+
+    #card_12 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #prod_container a,
+    p,
+    h3,
+    h2 {
+        font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    }
+
+
+    /* More by monday products */
+
+    #more {
+        width: auto;
+        margin-top: 2px;
+    
+        grid-area: "more";
+    }
+
+    #more>div {
+        width: auto;
+        display: flex;
+        margin-left: 15px;
+    }
+    #more>div:hover {
+    background-color: rgb(185, 185, 185);
+    }
+
+    #more>div>img {
+        border: 1px solid rgb(247, 240, 240);
+        margin-top: 15px;
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #more>div>h4 {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+
+
+
+    /* --------------------Use cases Dropdown menu------------------------*/
+
+
+    #usecase_menu {
+        margin-top: 20px;
+        height: 435px;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    }
+    
+    .title_1 {
+    
+    
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin: auto;
+        font-weight: bolder;
+        color: rgb(102, 101, 101);
+    
+    }
+    
+    /* by team block1 */
+    #team_card {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 211px);
+        grid-template-rows: repeat(4, 54px);
+    }
+    
+    
+    .team_card1 {
+    
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    
+        margin-bottom: 20px;
+    }
+    
+    .team_card1:hover {
+        background-color: rgb(231, 227, 227);
+    }
+    
+    .team_card1>img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .team_card1>h4 {
+        text-decoration: none;
+        color: rgb(102, 101, 101);
+        width: 20px;
+    }
+    
+    .decoretion {
+        text-decoration: none;
+    }
+    
+    /* By business size block*/
+    #size_card {
+        margin-top: 20px;
+        width: 195px;
+    
+    
+    }
+    
+    #size_card>div {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .size_card1>img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    #size_card>div:hover {
+        background-color: rgb(231, 227, 227);
+    }
+    
+    .size_card1>h4 {
+        color: rgb(102, 101, 101);
+    }
+    
+    /* By work flow block  */
+    #workfolow_card {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 312px);
+        grid-template-rows: repeat(1, 398px);
+        row-gap: 10px;
+    
+    }
+    
+    .workflow_card2 {
+    
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .workflow_1 {
+        color: rgb(102, 101, 101);
+    }
+    
+    .workflow_card2:hover {
+        background-color: rgb(231, 227, 227);
+    }
+    
+    .workflow_card2>svg {
+        width: 40px;
+        margin-bottom: 40px;
+        --icon-color: #6C6CFF;
+    }
+
+
+
+
+
+    /* ------------------- Features dropdown menu ------------------------ */
+
+    #features_drop1{
+        width: 100%;
+        height: 300px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+     
+    
+    }
+    
+    .fetures_subhead{
+        margin-top: 30px;
+        margin-left: -1110px;
+       
+    }
+    
+    
+    .features_a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #features_card {
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
+        row-gap: 20px;
+        padding: 17px;
+    }
+    
+    .features_card1 {
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 10px;
+    }
+    
+    .features_card1:hover {
+        background-color: rgb(231, 237, 247);
+    }
+    
+    .fetures_head {
+        display: flex;
+        align-items: center;
+    }
+    .features_card1 p{
+        text-align: left;
+        margin-top: 8px;
+    }
+    .fetures_head>svg{
+        margin-right: 10px;
+       
+    }
+
+
+    /* --------------------Resourses dropdown menu ------------------------------- */
+
+    #resources_drop1{
+        display: grid;
+        grid-template-columns:repeat(4,1fr) ;
+        grid-template-rows: auto;
+        gap: 15px;
+        
+        box-shadow: rgba(.20, .20, 33, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        padding: 10px;
+    }
+    
+    #resources_drop1{
+        text-align: left;
+    }
+    
+    .head_features{
+        margin-bottom: 15px;
+    }
+    
+    .features_card{
+        margin-bottom: 15px;
+    }
+    
+    .features_card>h4{
+        margin-bottom: 15px;
+        color: rgb(94, 91, 91);
+    }
+    
+    .features_card>p{
+    font-size: 15px;
+    }
+    .storiesdiv{
+        width: 270px;
+        height: 260px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        margin-bottom: 10px;
+    }
+    .storiesImg{
+        width: 220px;
+        height: 150px;
+    }
+
+
+
+
+
