@@ -242,4 +242,3 @@ let footer = () => {
 
 export default footer;
 
-document.getElementById("footer").innerHTML=footer();
