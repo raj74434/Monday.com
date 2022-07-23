@@ -1,5 +1,7 @@
 
 
+
+
 let navbar = () => {
  
     return ` <div id="left_side">

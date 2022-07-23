@@ -47,9 +47,7 @@ let footer = () => {
         <p>Dashboard</p>
         <p>Kanban</p>
         <p>Gantt</p>
-
     </div>
-
     <div>
         <h4>monday products</h4>
         <div class="products_footer">
@@ -77,7 +75,6 @@ let footer = () => {
                 alt="">
             <p>monday dev</p>
         </div>
-
         <h4>More by monday.com</h4>
         <div class="products_footer">
             <img src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/canvas_icon_footer.png"
@@ -100,7 +97,6 @@ let footer = () => {
         <p>IT</p>
         <p>Operations</p>
         <p>Construction</p>
-
     </div>
     <div>
         <h4>Company</h4>
@@ -114,9 +110,7 @@ let footer = () => {
         <p>Affiliates</p>
         <p>Digital lift</p>
         <p>Investor relations</p>
-
     </div>
-
     <div>
         <h4>Resources</h4>
         <p>Help center</p>
@@ -128,7 +122,6 @@ let footer = () => {
         <p>App development</p>
         <p>Find a partner</p>
         <p>Compare</p>
-
     </div>
 </div>
 <hr id="hrline">
@@ -168,10 +161,8 @@ let footer = () => {
             </div>
         </div>
         <div>
-
         </div>
         <div>
-
         </div>
     </div>
     <div id="external_links2">
@@ -215,7 +206,6 @@ let footer = () => {
                     d="M71.883 29.343c-3.85-.116-7.338-1.961-9.968-4.426a14.4 14.4 0 0 1-4.466-10.638H46.73v41.284c0 6.744-4.042 10.718-9.008 10.718a9.013 9.013 0 1 1 2.912-17.506V37.873a13.216 13.216 0 0 0-2.912-.308 19.722 19.722 0 0 0-18.22 12.169 19.717 19.717 0 1 0 37.933 7.549v-22.22c4.154 2.872 9.115 4.23 14.412 4.324l.036-10.044z"
                     fill="#535768"></path>
             </svg>
-
         </div>
         <div id="terms-privacy">
             <p>Security |</p>
@@ -223,7 +213,6 @@ let footer = () => {
             <p> Privacy policy |</p> <span>Status All Rights Reserved © monday.com</span>
         </div>
     </div>
-
     <div id="external_links3">
         <div>
           <img src="https://tse4.mm.bing.net/th?id=OIP.hehIrUW0uy5YbWbJF9sviAHaB-&pid=Api&P=0" alt="">
@@ -240,5 +229,5 @@ let footer = () => {
     
 }
 
-export default footer;
-
+let foote=document.querySelector("#footer");
+foote.innerHTML=footer()

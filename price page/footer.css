@@ -1,10 +1,19 @@
+
+#footerr_div div
+{
+    margin:8px
+}
+
 #footerr_div{
-    padding: 10px;
+/* border: solid;; */
+    padding: 0px;
+    margin: 0px;
     width: 1230px;
     cursor: pointer;
 }
 
-#footer_logo {
+#footer_logo
+{
     margin-top: 10px;
 }
 
