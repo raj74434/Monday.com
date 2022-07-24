@@ -1,0 +1,362 @@
+#container
+{
+    border:solid white;
+    /* border: transparent; */
+    width:1300px;
+    margin: auto;
+    /* margin-top: 100px; */
+}
+
+#heading
+{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    margin-top: 150px;
+    line-height: 50px;
+
+}
+.send
+{
+    display: block;
+    margin: auto;
+    color:white;
+    background-color: #6c6cff;
+    padding:15px 40px;
+    border-radius: 30px;
+    border: transparent;
+    margin-bottom: 40px;
+}
+.send:hover
+{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    color:white;
+    background-color: blue;
+    padding:15px 40px;
+    border-radius: 30px;
+    border: transparent;
+    margin-bottom: 40px;
+}
+#bar
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#sl
+{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+#sr
+{
+    
+    width: 270px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    border: transparent;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+#sr>div+div
+{
+    border-left: solid;
+    padding: 8px 15px;
+}
+#size
+{
+    /* font-size: 20px; */
+    margin-left: 15px;
+    width:200px;
+    padding:10px
+}
+#size>option
+{
+    font-size:20px ;
+}
+#packs
+{
+    margin-top: 30px;
+    
+    display:grid;
+    grid-template-columns: repeat(5,200px);
+    justify-content: space-evenly;
+}
+.price
+{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.price>div:first-child
+{
+font-size: 50px;
+margin-right: 4px;
+}
+
+.i
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.des
+{
+    border-top: solid grey;
+margin-top: 100px;
+}
+.cards
+{
+    border-radius: 5px;
+border: solid grey;
+padding:0px 15px;
+line-height: 20px;
+}
+
+.choose
+{
+    display: block;
+    margin: auto;
+    color:white;
+    background-color: #6c6cff;
+    padding:9px 20px;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.choose:hover
+{
+   
+    display: block;
+    margin: auto;
+    color:white;
+    background-color: blue;
+    padding:9px 20px;
+    border-radius: 30px;
+    border: transparent;
+   
+    
+}
+/* .................................. 2nd part..........................................   */
+.accordition #contentBx
+{
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+.accordition #contentBx .label
+{
+    width:400px;
+    margin: auto;
+    position: relative;
+    /* color: grey; */
+    cursor: pointer;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+
+.accordition #contentBx .label ::before
+{
+    
+    position: absolute;
+
+}
+.accordition #contentBx .content
+{
+    /* border: solid; */
+    position: relative;
+   
+    height: 0;
+    overflow: hidden;
+    transition: 0.20%;
+    overflow-y: auto;
+}
+
+.accordition #contentBx.active .content
+{
+ 
+   padding: 10px;
+    height: auto;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.tr
+{
+    height:100px
+}
+ 
+
+#table 
+{
+    width:90%;
+    margin: auto;
+   text-align: center;
+  
+}
+ .tr
+{
+    border-top: #6c6cff;
+}
+
+
+.tablebtn
+{
+    background-color: #6c6cff;
+    color:white;
+    padding:8px 15px;
+    border-radius: 20px;
+    border: transparent;
+}
+.tablebtn:hover
+{
+    background-color: blue;
+    cursor: pointer;
+}
+ #middleheading
+{
+text-align: center;
+margin-top: 80px;
+}
+
+#brandsnav
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#brandsnav>div
+{
+    width:100px
+
+}
+#brandsnav>div>img
+{
+    width:100%;
+}
+
+               /*--------------------3rd part--------------------------------------  */
+
+               #sliding
+               {
+                margin-top: 100px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               justify-content: space-evenly;
+               }
+               
+               #faq
+               {
+                   margin-top: 100px;
+                   background-color: #f3f4f6;
+                   padding:100px
+               }
+               .drower
+               {
+                   margin-bottom: 0px;
+                   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+                   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+                   text-align: center;
+                   cursor:pointer;
+                   width: 700px;                  
+                   margin: auto;
+                   padding: 15px 120px;
+                   
+               }
+               .drower:hover
+               {
+                   margin-bottom: 0px;
+                   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+                   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+                   text-align: center;
+                   cursor:pointer;
+                   width: 700px;
+                   margin: auto;
+                   padding: 15px 120px;
+                   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;                  
+               }
+               
+               .drower ::before
+               {                
+                   cursor:pointer;
+                   width: 500px;
+                   position: absolute;
+                   margin: auto;              
+               }
+                .details
+               {                 
+                   position: relative;                 
+                   height: 0;
+                   overflow: hidden;
+                   transition: 0.20%;
+                   overflow-y: auto;
+               }
+               
+                .drower.active .details
+               {               
+                  padding: 10px;
+                   height: auto;
+                   width: 500px;
+                   margin: auto;                
+               }
+               
+               
+               #last
+               {
+                   margin: auto;
+                   margin-top: 90px;
+                   width:500px;
+                   text-align: center;
+               }
+               
+               #sliding
+               {
+                   border-radius: 10px;
+                   margin: auto;
+                   width:700px;
+                   padding: 80px;
+                   align-items: center;
+                   text-align: center;
+               }
+               
+               .label
+               {
+                color: grey;
+                   padding: 40px;
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-between;
+               }
+               
+               .drower.active .label svg
+               {
+                   transition: 0.50s;
+                   transform: rotate(180deg);
+               }
+
+              #sliding
+               {
+                margin-top: 130px;
+                background-color:#f5f5f5
+               }
+               #last
+               {
+                line-height: 55px;                
+               }
+               #last>button
+               {
+                margin-top: 30px;               
+               }
