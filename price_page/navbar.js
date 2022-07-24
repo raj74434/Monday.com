@@ -5,7 +5,7 @@
 let navbar = () => {
  
     return ` <div id="left_side">
-    <div id="logo"><a href="# ">
+    <div id="logo"><a href="../HOME_PAGE/Homepage/index.html">
     <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png">
     </a>
     </div>
@@ -40,7 +40,7 @@ let navbar = () => {
     </div>
 </div>
     <div id="right_menu">
-        <div><a href=""> <p class="right_title">  Pricing </p> </a></div>
+        <div><a href="../price_page/pricing.html"> <p class="right_title">  Pricing </p> </a></div>
         <div><a href="../contact_sales/contact.html"> <p class="right_title"> Contact sales </p> </a></div>
         <div><a href="#"> <p class="right_title"> Log in </p>  </a></div>
         <button id="btn_getStrted"><a href="#">Get Started -></a></button>
@@ -49,7 +49,7 @@ let navbar = () => {
 
 
 
-export default navbar;
+// export default navbar;
 
 document.getElementById("navbar").innerHTML=navbar()
 
@@ -132,7 +132,7 @@ let displayMenu = () => {
             </div>
             <div class="work">
 
-            <a href="#abcd">
+            <a href="../Saurabh/sales.html">
                 <div class="logo_product">
                     <span > <img
                             src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/crm_icon_footer.png"
@@ -219,7 +219,9 @@ let displayMenu = () => {
             </div>
             <div class="work">
 
-            <a href="#abcd">
+            
+            <a href="../Saurabh/dev.html">
+            
                 <div class="logo_product">
                     <span> <img
                             src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/dev_icon_footer.png"
