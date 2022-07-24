@@ -1,9 +1,11 @@
 
 
+
+
 let navbar = () => {
  
     return ` <div id="left_side">
-    <div id="logo"><a href="/puny-cactus-404/HOME_PAGE/Homepage/index.html ">
+    <div id="logo"><a href="/puny-cactus-404/HOME_PAGE/Homepage/index.html">
     <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png">
     </a>
     </div>
