@@ -1,12 +1,12 @@
-/*  -------------------- Navbar css part ------------------------*/
+ /*  -------------------- Navbar css part ------------------------*/
 
-* {
+ * {
     padding: 0px;
     margin: 0px;
 }
 
 #navbar {
-    width: 1300px;
+    width: 1300;
     height: 72px;
     display: flex;
     justify-content: space-between;
