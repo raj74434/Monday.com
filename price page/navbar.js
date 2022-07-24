@@ -41,7 +41,7 @@ let navbar = () => {
 </div>
     <div id="right_menu">
         <div><a href=""> <p class="right_title">  Pricing </p> </a></div>
-        <div><a href="#"> <p class="right_title"> Contact sales </p> </a></div>
+        <div><a href="../contact_sales/contact.html"> <p class="right_title"> Contact sales </p> </a></div>
         <div><a href="#"> <p class="right_title"> Log in </p>  </a></div>
         <button id="btn_getStrted"><a href="#">Get Started -></a></button>
     </div>`
