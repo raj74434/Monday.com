@@ -219,7 +219,6 @@ body {
 
 .image_text {
     width: 100%;
-
     display: flex;
     gap: 20px;
 }
@@ -259,7 +258,7 @@ body {
 
     margin: auto;
     text-align: center;
-    padding: 10px;
+    padding: 9px;
 }
 
 #work_flow_text #h1 {
